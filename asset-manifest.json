@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/courseinsider/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/courseinsider/static/js/main.0337cef2.chunk.js",
+    "main.js.map": "/courseinsider/static/js/main.0337cef2.chunk.js.map",
+    "runtime-main.js": "/courseinsider/static/js/runtime-main.5e6c3db5.js",
+    "runtime-main.js.map": "/courseinsider/static/js/runtime-main.5e6c3db5.js.map",
+    "static/js/2.5efb53c1.chunk.js": "/courseinsider/static/js/2.5efb53c1.chunk.js",
+    "static/js/2.5efb53c1.chunk.js.map": "/courseinsider/static/js/2.5efb53c1.chunk.js.map",
+    "static/js/3.5be731b8.chunk.js": "/courseinsider/static/js/3.5be731b8.chunk.js",
+    "static/js/3.5be731b8.chunk.js.map": "/courseinsider/static/js/3.5be731b8.chunk.js.map",
+    "index.html": "/courseinsider/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/courseinsider/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.5efb53c1.chunk.js.LICENSE.txt": "/courseinsider/static/js/2.5efb53c1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/courseinsider/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e6c3db5.js",
+    "static/js/2.5efb53c1.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.0337cef2.chunk.js"
+  ]
+}
