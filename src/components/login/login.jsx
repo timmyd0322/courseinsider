@@ -1,5 +1,6 @@
 import React from "react";
 import loginImg from "../../logoat.svg";
+import {Link} from "react-router-dom";
 
 
 export class Login extends React.Component {
@@ -30,7 +31,9 @@ export class Login extends React.Component {
                 <button type="button" className="btn">
                     Login
                 </button>
+                
             </div>
         </div>
     }
 }
+export default Login;

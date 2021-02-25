@@ -1,5 +1,11 @@
-import Login from "./components/Login";
+import React from 'react';
+import { Route, IndexRoute } from 'react-router';
 
-<Route exact path="/login">
+import Login from "./components/Login";
+import HomePage from './components/Home';
+
+
+<Route path="/login">
   <Login />
+  <Route exact path = "/home" component={HomePage}/>
 </Route>

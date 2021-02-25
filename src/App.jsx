@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.scss';
 import { Login, Register } from "./components/login/index";
+import {  BrowserRouter, Route, Switch, Link, Redirect, Router } from "react-router-dom";
+
+
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +15,9 @@ class App extends React.Component {
       isLogginActive: true
     };
   }
-
+  
+  
+  
   componentDidMount() {
     //Add .right by default
     this.rightSide.classList.add("right");
@@ -54,6 +61,7 @@ class App extends React.Component {
       </div>
     );
   }
+  
 }
 
 const RightSide = props => {
@@ -69,5 +77,6 @@ const RightSide = props => {
     </div>
   );
 };
+
 
 export default App;

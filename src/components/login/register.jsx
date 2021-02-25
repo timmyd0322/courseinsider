@@ -38,3 +38,5 @@ export class Register extends React.Component {
         </div>
     }
 }
+
+export default Register;
