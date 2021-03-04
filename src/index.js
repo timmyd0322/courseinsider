@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch,  } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Pages
 
@@ -20,10 +21,11 @@ ReactDOM.render(
     <Router>
       <Switch>
         
-        <Route exact path = '/login' component={ Login, Register}/>
-        <Route path = "/home" component={HomePage} />
-        <Route path = "/teacher" component={TeacherPage} />
-        <Route path = "/course" component={CoursePage} />
+        <Route exact path = '/login' component={ Login}/>
+        <Route exact path = '/register' component={ Register}/>
+        <Route path = '/home' component={HomePage} />
+        <Route path = '/teacher' component={TeacherPage} />
+        <Route path = '/course' component={CoursePage} />
         <Route component ={PageNotFound}></Route>
       </Switch>
     </Router>

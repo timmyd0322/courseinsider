@@ -30,6 +30,7 @@ export class Register extends React.Component {
                     </div>
                 </div>
             </div>
+            <a href="/login">Already registered? Login here</a>
             <div className="footer">
                 <button type="button" className="btn">
                     Register
