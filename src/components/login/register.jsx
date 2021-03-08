@@ -32,7 +32,7 @@ export class Register extends React.Component {
             </div>
             <a href="/login">Already registered? Login here</a>
             <div className="footer">
-                <button type="button" className="btn">
+                <button type="button" className="btn" href = "/login">
                     Register
                 </button>
             </div>

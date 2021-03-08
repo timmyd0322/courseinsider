@@ -16,7 +16,7 @@ const Navigationbar = () => {
         <NavDropdown.Item href="#action/1.2">Civil Engineering</NavDropdown.Item>
         <NavDropdown.Item href="#action/1.3">Chemical Engineering</NavDropdown.Item>
         <NavDropdown.Item href="#action/1.4">Biological/Bio Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Computer Science</NavDropdown.Item>
+        <NavDropdown.Item href="/computerscience">Computer Science</NavDropdown.Item>
         <NavDropdown.Item href="#action/1.4">Electrical Engineering</NavDropdown.Item>
         <NavDropdown.Item href="#action/1.4">Computer Engineering</NavDropdown.Item>
         <NavDropdown.Item href="#action/1.4">Industrial and Systems Engineering</NavDropdown.Item>
@@ -63,7 +63,7 @@ const Navigationbar = () => {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-<Navbar fixed="top" />
+<Navbar sticky="top" />
       </div>
 
   );

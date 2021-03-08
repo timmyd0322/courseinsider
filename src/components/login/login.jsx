@@ -29,7 +29,7 @@ export class Login extends React.Component {
             </div>
             <a href="/register">Not registered? Register here</a>
             <div className="footer">
-                <button type="button" className="btn" onclick="location.href='/home'">
+                <button type="button" className="btn" href = "/home">
                     Login
                 </button>
                 

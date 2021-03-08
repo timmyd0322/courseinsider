@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 //Pages
 
 import HomePage from './home';
@@ -14,6 +15,7 @@ import CoursePage from './course';
 import TeacherPage from './teacher';
 import PageNotFound from './404';
 import { Login, Register } from './components/login/index';
+import ComputerScience from './compscilanding';
 
 
 ReactDOM.render(
@@ -26,6 +28,7 @@ ReactDOM.render(
         <Route path = '/home' component={HomePage} />
         <Route path = '/teacher' component={TeacherPage} />
         <Route path = '/course' component={CoursePage} />
+        <Route path = '/computerscience' component={ComputerScience} />
         <Route component ={PageNotFound}></Route>
       </Switch>
     </Router>
