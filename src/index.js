@@ -16,7 +16,13 @@ import TeacherPage from './teacher';
 import PageNotFound from './404';
 import { Login, Register } from './components/login/index';
 import ComputerScience from './compscilanding';
-
+import ArchitecturalEngineering from './architecenginland';
+import CivilEngineering from './civilenginland';
+import ChemicalEngineering from './chemenginland';
+import BioEngineering from './bioengin';
+import ElectricalEngineering from './electricengin';
+import IndustrialEngineering from './indusengin';
+import MechanicalEngineering from './mechanengin';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +35,14 @@ ReactDOM.render(
         <Route path = '/teacher' component={TeacherPage} />
         <Route path = '/course' component={CoursePage} />
         <Route path = '/computerscience' component={ComputerScience} />
+        <Route path = '/architecturalengineering' component={ArchitecturalEngineering} />
+        <Route path = '/civilengineering' component={CivilEngineering} />
+        <Route path = '/chemicalengineering' component={ChemicalEngineering} />
+        <Route path = '/bioengineering' component={BioEngineering} />
+        <Route path = '/electcompengineering' component={ElectricalEngineering} />
+        <Route path = '/industrialengineering' component={IndustrialEngineering} />
+        <Route path = '/mechanicalengineering' component={MechanicalEngineering} />
+
         <Route component ={PageNotFound}></Route>
       </Switch>
     </Router>

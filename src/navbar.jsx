@@ -12,15 +12,14 @@ const Navigationbar = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
     <NavDropdown title="College Of Engineering" id="collasible-nav-dropdown1">
-        <NavDropdown.Item href="#action/1.1">Architectural Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.2">Civil Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.3">Chemical Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Biological/Bio Engineering</NavDropdown.Item>
+        <NavDropdown.Item href="/architecturalengineering">Architectural Engineering</NavDropdown.Item>
+        <NavDropdown.Item href="/civilengineering">Civil Engineering</NavDropdown.Item>
+        <NavDropdown.Item href='/chemicalengineering'>Chemical Engineering</NavDropdown.Item>
+        <NavDropdown.Item href='/bioengineering'>Biological/Bio Engineering</NavDropdown.Item>
         <NavDropdown.Item href="/computerscience">Computer Science</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Electrical Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Computer Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Industrial and Systems Engineering</NavDropdown.Item>
-        <NavDropdown.Item href="#action/1.4">Mechanical Engineering </NavDropdown.Item>
+        <NavDropdown.Item href='/electcompengineering'>Electrical/Computer Engineering</NavDropdown.Item>
+        <NavDropdown.Item href='/industrialengineering'>Industrial and Systems Engineering</NavDropdown.Item>
+        <NavDropdown.Item href='/mechanicalengineering'>Mechanical Engineering </NavDropdown.Item>
       </NavDropdown>
     <NavDropdown title="College Of Education" id="collasible-nav-dropdown2">
         <NavDropdown.Item href="#action/2.1">Elementary Education</NavDropdown.Item>

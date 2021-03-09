@@ -6,14 +6,7 @@ import './compscilanding.scss'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import {Dropdown} from 'react-bootstrap';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      display: 'flex',
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+
 
 const ComputerScience = () => {
   
