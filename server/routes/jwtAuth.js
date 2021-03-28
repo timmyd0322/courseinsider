@@ -4,11 +4,12 @@ const bcrypt = require("bcrypt");
 const pool = require("../db");
 const validInfo = require("../middleware/validInfo");
 const jwtGenerator = require("../utils/jwtGenerator");
-const authorization = require("../middleware/authorization");
+const authorize = require("../middleware/authorize");
 
 //registering
 
 router.post("/register", validInfo, async (req, res) => {
+  console.log("In ", req.body);
     const { email, name, password } = req.body;
   
     try {
@@ -38,6 +39,7 @@ router.post("/register", validInfo, async (req, res) => {
   });
   // login route
   router.post("/login", validInfo, async (req, res) => {
+    console.log("I AM IN")
     const { email, password } = req.body;
   
     try {
