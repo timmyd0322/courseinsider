@@ -1,11 +1,13 @@
 
 import React, { Component } from 'react';
 import Navigationbar from './navbar';
-import Particles from './particles';
+
+import BottomNavigationbar from './bottomnavbar';
 
 
 
 const HomePage = () => {
+  
     return (
       
       <div>
@@ -23,8 +25,9 @@ const HomePage = () => {
           OR
         </h2>
         <input type="text" placeholder="Search by Course..."/>
+
       </center>
-      
+      <BottomNavigationbar/>
       </div>
       </div>
       
