@@ -117,7 +117,7 @@ export class COMP_495 extends React.Component {
          
          <div class="wrapper">
     <div class="one"><center>
-    <h1>Course Name</h1>
+    <h1>COMP 495</h1>
     </center>
     </div>
   <div class="two"><center>
@@ -125,9 +125,9 @@ export class COMP_495 extends React.Component {
     </center>
   </div>
   <div class="three"><center>
-    Course Desciption
-  <h3>
-  This course is the first course in a two-semester sequence, which allows students the opportunity to design and implement a software project from start to finish. Projects started in this course will be completed in COMP 596, giving the student the opportunity to work on a project of significant size. Students taking this course must take COMP 496.  </h3>
+    <h3>Course Desciption</h3>
+  <p>
+  This course is the first course in a two-semester sequence, which allows students the opportunity to design and implement a software project from start to finish. Projects started in this course will be completed in COMP 596, giving the student the opportunity to work on a project of significant size. Students taking this course must take COMP 496.  </p>
   <form onSubmit={this.onSubmit}>
           <strong>Level of work in class from 1 to 5?</strong>
 

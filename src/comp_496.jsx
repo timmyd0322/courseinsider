@@ -3,6 +3,7 @@ import Navigationbar from './navbar';
 import './course.scss'
 import CardColumns from 'react-bootstrap/CardColumns'
 import Card from 'react-bootstrap/Card'
+import syllabus496 from './syllabus496.png'
 
 export class COMP_496 extends React.Component {    
 
@@ -122,7 +123,7 @@ export class COMP_496 extends React.Component {
     </center>
     </div>
   <div class="two"><center>
-    <a href="/logoat.svg">Course Syllabus</a>
+    <a href="/syllabus496.png">Course Syllabus</a>
     </center>
   </div>
   <div class="three"><center>
@@ -520,7 +521,7 @@ export class COMP_496 extends React.Component {
 </div>
   </center>
   </div>
-  <div class="six"><center>Six
+  <div class="six"><center>
 
   </center>
   </div>
