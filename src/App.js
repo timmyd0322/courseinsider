@@ -17,6 +17,28 @@ import HomePage from './home';
 import CoursePage from './course';
 import TeacherPage from './teacher';
 import PageNotFound from './404';
+import COMP_121 from './comp_121';
+import COMP_161 from './comp_161';
+import COMP_163 from './comp_163';
+import COMP_180 from './comp_180';
+import COMP_200 from './comp_200';
+import COMP_267 from './comp_267';
+import COMP_280 from './comp_280';
+import COMP_285 from './comp_285';
+import COMP_300 from './comp_300';
+import COMP_320 from './comp_320';
+import COMP_322 from './comp_322';
+import COMP_350 from './comp_350';
+import COMP_360 from './comp_360';
+import COMP_361 from './comp_361';
+import COMP_365 from './comp_365';
+import COMP_385 from './comp_385';
+import COMP_390 from './comp_390';
+import COMP_397 from './comp_397';
+import COMP_476 from './comp_476';
+import COMP_485 from './comp_485';
+import COMP_495 from './comp_495';
+import COMP_496 from './comp_496';
 
 import ComputerScience from './compscilanding';
 import ArchitecturalEngineering from './architecenginland';
@@ -109,6 +131,28 @@ function App() {
         <Route path = '/home' component={HomePage} />
         <Route path = '/teacher' component={TeacherPage} />
         <Route path = '/course' component={CoursePage} />
+        <Route path = '/comp_121' component={COMP_121} />
+        <Route path = '/comp_161' component={COMP_161} />
+        <Route path = '/comp_163' component={COMP_163} />
+        <Route path = '/comp_180' component={COMP_180} />
+        <Route path = '/comp_200' component={COMP_200} />
+        <Route path = '/comp_267' component={COMP_267} />
+        <Route path = '/comp_280' component={COMP_280} />
+        <Route path = '/comp_285' component={COMP_285} />
+        <Route path = '/comp_300' component={COMP_300} />
+        <Route path = '/comp_320' component={COMP_320} />
+        <Route path = '/comp_322' component={COMP_322} />
+        <Route path = '/comp_350' component={COMP_350} />
+        <Route path = '/comp_360' component={COMP_360} />
+        <Route path = '/comp_361' component={COMP_361} />
+        <Route path = '/comp_365' component={COMP_365} />
+        <Route path = '/comp_385' component={COMP_385} />
+        <Route path = '/comp_390' component={COMP_390} />
+        <Route path = '/comp_397' component={COMP_397} />
+        <Route path = '/comp_476' component={COMP_476} />
+        <Route path = '/comp_485' component={COMP_485} />
+        <Route path = '/comp_495' component={COMP_495} />
+        <Route path = '/comp_496' component={COMP_496} />
         <Route path = '/computerscience' component={ComputerScience} />
         <Route path = '/architecturalengineering' component={ArchitecturalEngineering} />
         <Route path = '/civilengineering' component={CivilEngineering} />

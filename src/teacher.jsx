@@ -21,7 +21,7 @@ export class TeacherPage extends React.Component {
         <div class="wrapper">
           <div class="one">
             <center>
-              <h1>TeacherName</h1>
+              <h1>Teacher Name</h1>
             </center>
           </div>
           <div class="two">
@@ -32,30 +32,30 @@ export class TeacherPage extends React.Component {
               <Form>
                 <fieldset>
                   <Form.Group as={Row}>
-                    First Question
+                    Level of feedback given in course?
                     <Form.Label as="legend" column sm={2}></Form.Label>
                     <Col sm={10}>
                       <Form.Check
                         type="radio"
-                        label="first radio"
+                        label="None"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios1"
                       />
                       <Form.Check
                         type="radio"
-                        label="second radio"
+                        label="Some"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios2"
                       />
                       <Form.Check
                         type="radio"
-                        label="third radio"
+                        label="Sufficient"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios3"
                       />
                       <Form.Check
                         type="radio"
-                        label="fourth radio"
+                        label="Tons"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios4"
                       />
@@ -63,30 +63,30 @@ export class TeacherPage extends React.Component {
                   </Form.Group>
 
                   <Form.Group as={Row}>
-                    Second Question
+                  Quality of education?
                     <Form.Label as="legend" column sm={2}></Form.Label>
                     <Col sm={10}>
                       <Form.Check
                         type="radio"
-                        label="first radio"
+                        label="Great"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios5"
                       />
                       <Form.Check
                         type="radio"
-                        label="second radio"
+                        label="Good"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios6"
                       />
                       <Form.Check
                         type="radio"
-                        label="third radio"
+                        label="Bad"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios7"
                       />
                       <Form.Check
                         type="radio"
-                        label="fourth radio"
+                        label="Unacceptable"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios8"
                       />
@@ -94,30 +94,30 @@ export class TeacherPage extends React.Component {
                   </Form.Group>
 
                   <Form.Group as={Row}>
-                    Third Question
+                    How enthusiastic was the teacher?
                     <Form.Label as="legend" column sm={2}></Form.Label>
                     <Col sm={10}>
                       <Form.Check
                         type="radio"
-                        label="first radio"
+                        label="Super"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios9"
                       />
                       <Form.Check
                         type="radio"
-                        label="second radio"
+                        label="Kinda"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios10"
                       />
                       <Form.Check
                         type="radio"
-                        label="third radio"
+                        label="Not at all"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios11"
                       />
                       <Form.Check
                         type="radio"
-                        label="fourth radio"
+                        label="Hated it"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios12"
                       />
@@ -125,34 +125,39 @@ export class TeacherPage extends React.Component {
                   </Form.Group>
 
                   <Form.Group as={Row}>
-                    Fourth Question
+                  Did you find this material valuable?
                     <Form.Label as="legend" column sm={2}></Form.Label>
                     <Col sm={10}>
                       <Form.Check
                         type="radio"
-                        label="first radio"
+                        label="Mandatory"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios13"
                       />
                       <Form.Check
                         type="radio"
-                        label="second radio"
+                        label="Helpful"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios14"
                       />
                       <Form.Check
                         type="radio"
-                        label="third radio"
+                        label="Nice to know"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios15"
                       />
                       <Form.Check
                         type="radio"
-                        label="fourth radio"
+                        label="Useless"
                         name="formHorizontalRadios"
                         id="formHorizontalRadios16"
                       />
                     </Col>
+                  </Form.Group>
+
+                  <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Teacher Feedback</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
                   </Form.Group>
                 </fieldset>
 
