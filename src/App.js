@@ -34,6 +34,9 @@ import MechanicalEngineering from './mechanengin';
 import Login from './Login';
 import Register from './Register'
 import Dashboard from './Dashboard';
+import About from './about';
+import Policy from './policy';
+import FAQ from './FAQ';
 
 
 
@@ -114,6 +117,9 @@ function App() {
         <Route path = '/electcompengineering' component={ElectricalEngineering} />
         <Route path = '/industrialengineering' component={IndustrialEngineering} />
         <Route path = '/mechanicalengineering' component={MechanicalEngineering} />
+        <Route path = '/about' component={About} />
+        <Route path = '/policy' component={Policy} />
+        <Route path = '/faq' component={FAQ} />
         <Route component ={PageNotFound}></Route>
           </Switch>
         </div>

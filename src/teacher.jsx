@@ -9,12 +9,15 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
+import BottomNavigationbar from './bottomnavbar';
 
 export class TeacherPage extends React.Component {
   render() {
     return (
       <div>
         <Navigationbar />
+        <BottomNavigationbar/>
+
         <div class="wrapper">
           <div class="one">
             <center>
