@@ -198,7 +198,7 @@ export class COMP_496 extends React.Component {
           <button type="submit">submit</button>
         </form>
         <form onSubmit={this.onSubmit}>
-          <strong>Level of work in class from 1 to 5?</strong>
+          <strong>After taking this Course I felt more knowledgeable about the subject</strong>
 
           <ul>
             <li>
@@ -265,7 +265,7 @@ export class COMP_496 extends React.Component {
           <button type="submit">submit</button>
         </form>
         <form onSubmit={this.onSubmit}>
-          <strong>Level of work in class from 1 to 5?</strong>
+          <strong>I recieved feedback throughout the Course?</strong>
 
           <ul>
             <li>
@@ -332,7 +332,7 @@ export class COMP_496 extends React.Component {
           <button type="submit">submit</button>
         </form>
         <form onSubmit={this.onSubmit}>
-          <strong>Level of work in class from 1 to 5?</strong>
+          <strong>I understood why I got the grades I recieved in this Course?</strong>
 
           <ul>
             <li>
@@ -399,7 +399,7 @@ export class COMP_496 extends React.Component {
           <button type="submit">submit</button>
         </form>
         <form onSubmit={this.onSubmit}>
-          <strong>Level of work in class from 1 to 5?</strong>
+          <strong>Was able to recieve Assistance when needed for the Course?</strong>
 
           <ul>
             <li>
@@ -469,49 +469,16 @@ export class COMP_496 extends React.Component {
   </div>
   <div class="four"><center>
   <Card border="primary" style={{ width: '18rem' }}>
-    <Card.Header>Header</Card.Header>
+    <Card.Header>Review</Card.Header>
     <Card.Body>
-      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Title>User:Tim</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
+        Review for Course
       </Card.Text>
     </Card.Body>
   </Card>
   <br />
-  <Card border="primary" style={{ width: '18rem' }}>
-    <Card.Header>Header</Card.Header>
-    <Card.Body>
-      <Card.Title>Primary Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <br />
-  <Card border="primary" style={{ width: '18rem' }}>
-    <Card.Header>Header</Card.Header>
-    <Card.Body>
-      <Card.Title>Primary Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <br />
-  <Card border="primary" style={{ width: '18rem' }}>
-    <Card.Header>Header</Card.Header>
-    <Card.Body>
-      <Card.Title>Primary Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <br />
+  
   </center>
   </div>
   <div class="five"><center>Enter your review of your time with this class.
