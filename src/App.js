@@ -17,6 +17,18 @@ import HomePage from './home';
 import CoursePage from './course';
 import TeacherPage from './teacher';
 import PageNotFound from './404';
+import COMP_121 from './comp_121';
+import COMP_161 from './comp_161';
+import COMP_163 from './comp_163';
+import COMP_180 from './comp_180';
+import COMP_200 from './comp_200';
+import COMP_267 from './comp_267';
+import COMP_280 from './comp_280';
+import COMP_285 from './comp_285';
+import COMP_300 from './comp_300';
+import COMP_320 from './comp_320';
+import COMP_322 from './comp_322';
+import COMP_350 from './comp_350';
 
 import ComputerScience from './compscilanding';
 import ArchitecturalEngineering from './architecenginland';
@@ -106,6 +118,18 @@ function App() {
         <Route path = '/home' component={HomePage} />
         <Route path = '/teacher' component={TeacherPage} />
         <Route path = '/course' component={CoursePage} />
+        <Route path = '/comp_121' component={COMP_121} />
+        <Route path = '/comp_161' component={COMP_161} />
+        <Route path = '/comp_163' component={COMP_163} />
+        <Route path = '/comp_180' component={COMP_180} />
+        <Route path = '/comp_200' component={COMP_200} />
+        <Route path = '/comp_267' component={COMP_267} />
+        <Route path = '/comp_280' component={COMP_280} />
+        <Route path = '/comp_285' component={COMP_285} />
+        <Route path = '/comp_300' component={COMP_300} />
+        <Route path = '/comp_320' component={COMP_320} />
+        <Route path = '/comp_322' component={COMP_322} />
+        <Route path = '/comp_350' component={COMP_350} />
         <Route path = '/computerscience' component={ComputerScience} />
         <Route path = '/architecturalengineering' component={ArchitecturalEngineering} />
         <Route path = '/civilengineering' component={CivilEngineering} />
