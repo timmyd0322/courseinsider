@@ -40,6 +40,20 @@ import COMP_485 from './comp_485';
 import COMP_495 from './comp_495';
 import COMP_496 from './comp_496';
 
+import prof_siddula from './prof_siddula';
+import prof_cho from './prof_cho';
+import prof_leflore from './prof_leflore';
+import prof_carr from './prof_carr';
+import prof_bryant from './prof_bryant';
+import prof_kim from './prof_kim';
+import prof_xu from './prof_xu';
+import prof_yu from './prof_yu';
+import prof_esterline from './prof_esterline';
+import prof_khorsandroo from './prof_khorsandroo';
+import prof_nowaczyk_pioro from './prof_nowaczyk_pioro';
+import prof_hinton from './prof_hinton';
+import prof_qingge from './prof_qingge';
+
 import ComputerScience from './compscilanding';
 import ArchitecturalEngineering from './architecenginland';
 import CivilEngineering from './civilenginland';
@@ -150,6 +164,21 @@ function App() {
         <Route path = '/comp_485' component={COMP_485} />
         <Route path = '/comp_495' component={COMP_495} />
         <Route path = '/comp_496' component={COMP_496} />
+
+        <Route path = '/prof_siddula' component={prof_siddula} />
+        <Route path = '/prof_leflore' component={prof_leflore} />
+        <Route path = '/prof_cho' component={prof_cho} />
+        <Route path = '/prof_carr' component={prof_carr} />
+        <Route path = '/prof_kim' component={prof_kim} />
+        <Route path = '/prof_xu' component={prof_xu} />
+        <Route path = '/prof_yu' component={prof_yu} />
+        <Route path = '/prof_bryant' component={prof_bryant} />
+        <Route path = '/prof_esterline' component={prof_esterline} />
+        <Route path = '/prof_khorsandroo' component={prof_khorsandroo} />
+        <Route path = '/prof_nowaczyk_pioro' component={prof_nowaczyk_pioro} />
+        <Route path = '/prof_hinton' component={prof_hinton} />
+        <Route path = '/prof_qingge' component={prof_qingge} />
+
         <Route path = '/computerscience' component={ComputerScience} />
         <Route path = '/architecturalengineering' component={ArchitecturalEngineering} />
         <Route path = '/civilengineering' component={CivilEngineering} />
