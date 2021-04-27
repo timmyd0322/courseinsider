@@ -11,7 +11,9 @@ const FAQ = () => {
     <Navigationbar/>
 </div>
 
+<div>
 
+</div>
 
 <div>
     <BottomNavigationbar/>

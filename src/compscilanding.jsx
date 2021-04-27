@@ -22,51 +22,51 @@ const ComputerScience = () => {
       
       </ul>
             <DropdownButton id="dropdown-button1" title="Courses" size="lg" variant="secondary">
-  <Dropdown.Item href="#/action-1">COMP 121</Dropdown.Item>
+  <Dropdown.Item href="/comp_121">COMP 121</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-2">COMP 161</Dropdown.Item>
+  <Dropdown.Item href="/comp_161">COMP 161</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 163</Dropdown.Item>
+  <Dropdown.Item href="/comp_163">COMP 163</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 180</Dropdown.Item>
+  <Dropdown.Item href="/comp_180">COMP 180</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 200</Dropdown.Item>
+  <Dropdown.Item href="/comp_200">COMP 200</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 267</Dropdown.Item>
+  <Dropdown.Item href="/comp_267">COMP 267</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 280</Dropdown.Item>
+  <Dropdown.Item href="/comp_280">COMP 280</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 285</Dropdown.Item>
+  <Dropdown.Item href="/comp_285">COMP 285</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 300</Dropdown.Item>
+  <Dropdown.Item href="/comp_300">COMP 300</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 320</Dropdown.Item>
+  <Dropdown.Item href="/comp_320">COMP 320</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 322</Dropdown.Item>
+  <Dropdown.Item href="/comp_322">COMP 322</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 350</Dropdown.Item>
+  <Dropdown.Item href="/comp_350">COMP 350</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 360</Dropdown.Item>
+  <Dropdown.Item href="/comp_360">COMP 360</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 361</Dropdown.Item>
+  <Dropdown.Item href="/comp_361">COMP 361</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 365</Dropdown.Item>
+  <Dropdown.Item href="/comp_365">COMP 365</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 385</Dropdown.Item>
+  <Dropdown.Item href="/comp_385">COMP 385</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 390</Dropdown.Item>
+  <Dropdown.Item href="/comp_390">COMP 390</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 397</Dropdown.Item>
+  <Dropdown.Item href="/comp_397">COMP 397</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 476</Dropdown.Item>
+  <Dropdown.Item href="/comp_476">COMP 476</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 485</Dropdown.Item>
+  <Dropdown.Item href="/comp_485">COMP 485</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 494</Dropdown.Item>
+  <Dropdown.Item href="/comp_494">COMP 494</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 495</Dropdown.Item>
+  <Dropdown.Item href="/comp_495">COMP 495</Dropdown.Item>
   <Dropdown.Divider />
-  <Dropdown.Item href="#/action-3">COMP 496</Dropdown.Item>
+  <Dropdown.Item href="/comp_496">COMP 496</Dropdown.Item>
 </DropdownButton>
 
       </div>
@@ -107,7 +107,9 @@ const ComputerScience = () => {
 </DropdownButton>
   </div>
 </div>
-
+<div>
+ 
+</div>
         </div>
 
     );

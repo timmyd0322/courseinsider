@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navigationbar from './navbar';
 import './course.scss'
-
+import CardColumns from 'react-bootstrap/CardColumns'
+import Card from 'react-bootstrap/Card'
 
 export class COMP_496 extends React.Component {    
 
@@ -117,7 +118,7 @@ export class COMP_496 extends React.Component {
          
          <div class="wrapper">
     <div class="one"><center>
-    <h1>Course Name</h1>
+    <h1>COMP 496</h1>
     </center>
     </div>
   <div class="two"><center>
@@ -125,9 +126,9 @@ export class COMP_496 extends React.Component {
     </center>
   </div>
   <div class="three"><center>
-    Course Desciption
-  <h3>
-  This course allows students the opportunity to design and implement a software project from start to finish. Projects started in COMP 595 must be completed in this course for students working on a yearlong project. Student choosing to do a semester project must start and complete the project in this course. This course gives the student the opportunity to work on a software project of significant size.  </h3>
+    <h3>Course Desciption</h3>
+  <p>
+  This course allows students the opportunity to design and implement a software project from start to finish. Projects started in COMP 595 must be completed in this course for students working on a yearlong project. Student choosing to do a semester project must start and complete the project in this course. This course gives the student the opportunity to work on a software project of significant size.  </p>
   <form onSubmit={this.onSubmit}>
           <strong>Level of work in class from 1 to 5?</strong>
 
@@ -465,8 +466,51 @@ export class COMP_496 extends React.Component {
         </form>
   </center>
   </div>
-  <div class="four"><center>Four
-
+  <div class="four"><center>
+  <Card border="primary" style={{ width: '18rem' }}>
+    <Card.Header>Header</Card.Header>
+    <Card.Body>
+      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+  <Card border="primary" style={{ width: '18rem' }}>
+    <Card.Header>Header</Card.Header>
+    <Card.Body>
+      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+  <Card border="primary" style={{ width: '18rem' }}>
+    <Card.Header>Header</Card.Header>
+    <Card.Body>
+      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+  <Card border="primary" style={{ width: '18rem' }}>
+    <Card.Header>Header</Card.Header>
+    <Card.Body>
+      <Card.Title>Primary Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
   </center>
   </div>
   <div class="five"><center>Enter your review of your time with this class.

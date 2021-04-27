@@ -117,7 +117,7 @@ export class COMP121 extends React.Component {
          
          <div class="wrapper">
     <div class="one"><center>
-    <h1>Course Name</h1>
+    <h1>Comp 121</h1>
     </center>
     </div>
   <div class="two"><center>
@@ -125,10 +125,10 @@ export class COMP121 extends React.Component {
     </center>
   </div>
   <div class="three"><center>
-    Course Desciption
-  <h3>
+    <h3>Course Desciption</h3>
+  <p>
   This course includes lectures, seminars and activities important to the retention and matriculation of computer science students. Topics covered include learning styles, group dynamics, computer science history, and career development. Students are also provided with group advisement regarding department, college, and university-level policies and procedures.
-  </h3>
+  </p>
   <form onSubmit={this.onSubmit}>
           <strong>Level of work in class from 1 to 5?</strong>
 
