@@ -3,7 +3,7 @@ import Navigationbar from './navbar';
 import './course.scss'
 
 
-export class COMP_121 extends React.Component {    
+export class COMP_495 extends React.Component {    
 
   state = {
     review:""
@@ -487,4 +487,4 @@ export class COMP_121 extends React.Component {
   }
 }
 
-export default COMP_121;
+export default COMP_495;

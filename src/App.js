@@ -29,6 +29,16 @@ import COMP_300 from './comp_300';
 import COMP_320 from './comp_320';
 import COMP_322 from './comp_322';
 import COMP_350 from './comp_350';
+import COMP_360 from './comp_360';
+import COMP_361 from './comp_361';
+import COMP_365 from './comp_365';
+import COMP_385 from './comp_385';
+import COMP_390 from './comp_390';
+import COMP_397 from './comp_397';
+import COMP_476 from './comp_476';
+import COMP_485 from './comp_485';
+import COMP_495 from './comp_495';
+import COMP_496 from './comp_496';
 
 import ComputerScience from './compscilanding';
 import ArchitecturalEngineering from './architecenginland';
@@ -130,6 +140,16 @@ function App() {
         <Route path = '/comp_320' component={COMP_320} />
         <Route path = '/comp_322' component={COMP_322} />
         <Route path = '/comp_350' component={COMP_350} />
+        <Route path = '/comp_360' component={COMP_360} />
+        <Route path = '/comp_361' component={COMP_361} />
+        <Route path = '/comp_365' component={COMP_365} />
+        <Route path = '/comp_385' component={COMP_385} />
+        <Route path = '/comp_390' component={COMP_390} />
+        <Route path = '/comp_397' component={COMP_397} />
+        <Route path = '/comp_476' component={COMP_476} />
+        <Route path = '/comp_485' component={COMP_485} />
+        <Route path = '/comp_495' component={COMP_495} />
+        <Route path = '/comp_496' component={COMP_496} />
         <Route path = '/computerscience' component={ComputerScience} />
         <Route path = '/architecturalengineering' component={ArchitecturalEngineering} />
         <Route path = '/civilengineering' component={CivilEngineering} />
