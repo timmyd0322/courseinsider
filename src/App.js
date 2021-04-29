@@ -62,6 +62,13 @@ import BioEngineering from './bioengin';
 import ElectricalEngineering from './electricengin';
 import IndustrialEngineering from './indusengin';
 import MechanicalEngineering from './mechanengin';
+import ElementaryEducation from './elementaryedu';
+import Accounting from './accountingland';
+import Finance from './financeland';
+import Economics from './economicsland';
+import Management from './managementland';
+import Marketing from './marketingland';
+import SupplyChainManagement from './supplychainmanland';
 
 // import Login from './Login';
 // import Register from './Register'
@@ -190,6 +197,13 @@ function App() {
         <Route path = '/electcompengineering' component={ElectricalEngineering} />
         <Route path = '/industrialengineering' component={IndustrialEngineering} />
         <Route path = '/mechanicalengineering' component={MechanicalEngineering} />
+        <Route path = '/elementaryeducation' component={ElementaryEducation} />
+        <Route path = '/accounting' component={Accounting} />
+        <Route path = '/finance' component={Finance} />
+        <Route path = '/economics' component={Economics} />
+        <Route path = '/management' component={Management} />
+        <Route path = '/marketing' component={Marketing} />
+        <Route path = '/supplyChainManagement' component={SupplyChainManagement} />
         <Route path = '/about' component={About} />
         <Route path = '/policy' component={Policy} />
         <Route path = '/faq' component={FAQ} />

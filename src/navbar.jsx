@@ -22,15 +22,15 @@ const Navigationbar = () => {
         <NavDropdown.Item href='/mechanicalengineering'>Mechanical Engineering </NavDropdown.Item>
       </NavDropdown>
     <NavDropdown title="College Of Education" id="collasible-nav-dropdown2">
-        <NavDropdown.Item href="#action/2.1">Elementary Education</NavDropdown.Item>
+        <NavDropdown.Item href="/elementaryeducation">Elementary Education</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="College of Business and Economics" id="collasible-nav-dropdown3">
-        <NavDropdown.Item href="#action/3.1">Accounting</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Finance</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Economics</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Management</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Marketing</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Supply Chain Management</NavDropdown.Item>
+        <NavDropdown.Item href="accounting">Accounting</NavDropdown.Item>
+        <NavDropdown.Item href="finance">Finance</NavDropdown.Item>
+        <NavDropdown.Item href="economics">Economics</NavDropdown.Item>
+        <NavDropdown.Item href="management">Management</NavDropdown.Item>
+        <NavDropdown.Item href="marketing">Marketing</NavDropdown.Item>
+        <NavDropdown.Item href="supplyChainManagement">Supply Chain Management</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="College of Arts Humanities and Social Sciences" id="collasible-nav-dropdown4">
         <NavDropdown.Item href="#action/4.1">Criminal Justice</NavDropdown.Item>
